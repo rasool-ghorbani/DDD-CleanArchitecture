@@ -20,7 +20,7 @@ namespace API.Controllers
             _mediatr = mediatr;
         }
 
-        [HttpGet]
+        [HttpGet] 
         public async Task<IActionResult> Gets([FromQuery] GetCustomersListQuery payload, CancellationToken cancellationToken = default)
         {
             var result = await _mediatr.Send(payload, cancellationToken);
