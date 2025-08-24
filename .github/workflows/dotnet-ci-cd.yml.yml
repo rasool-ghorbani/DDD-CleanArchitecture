@@ -42,7 +42,7 @@ jobs:
 
       - name: Build and Push Docker image
         run: |
-          IMAGE_NAME=mydockerhubuser/DDD-Clean
+          IMAGE_NAME=rasooldocker/ddd-clean
           IMAGE_TAG=latest
           docker build -t $IMAGE_NAME:$IMAGE_TAG -f API/Dockerfile .
           docker push $IMAGE_NAME:$IMAGE_TAG
