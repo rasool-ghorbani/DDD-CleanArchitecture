@@ -2,7 +2,7 @@
 using Domain.Aggregates.Customer.ValueObjects;
 using FluentAssertions;
 
-namespace UnitTests.Domain.Aggregates.Customer
+namespace UnitTests.Domain.ValueObjects.Customers
 {
     public class FirstNameTests
     {
